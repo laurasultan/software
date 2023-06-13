@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T13:26:27.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" version="21.3.8" etag="jskmQdlgVKcDiD_HaRq3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T13:33:37.882Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="8PjTSP44wc6FKOtRn-vU" version="21.3.8" type="github">
   <diagram name="Página-1" id="WE_3iRQrvajw1jwN0oiG">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JBDT6DxspvK0qAYj9MmD-1" value="Reciclagem do lixo" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="40" width="480" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JBDT6DxspvK0qAYj9MmD-2" value="Pessoa" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="JBDT6DxspvK0qAYj9MmD-1">
+          <mxGeometry y="20" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JBDT6DxspvK0qAYj9MmD-3" value="Caminhão" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="JBDT6DxspvK0qAYj9MmD-1">
+          <mxGeometry y="140" width="480" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
