@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-22T13:23:42.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="DKGi_x2o7_wrYT_iJLre" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-22T13:26:06.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="HfwRd-byuo3o6ojbXBRa" version="21.5.0" type="github">
   <diagram name="Página-1" id="hnpOtY7VWu-ZOGEDeQtI">
-    <mxGraphModel dx="926" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="A-TcL3AbhdKF6o_0VESA-1" value="Compras Online" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="14" y="80" width="961" height="380" as="geometry" />
+          <mxGeometry x="104" y="80" width="961" height="380" as="geometry" />
         </mxCell>
         <mxCell id="A-TcL3AbhdKF6o_0VESA-2" value="&lt;div&gt;Cliente&lt;/div&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="A-TcL3AbhdKF6o_0VESA-1">
           <mxGeometry y="20" width="961" height="120" as="geometry" />
