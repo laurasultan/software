@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T12:20:54.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" version="21.5.2" etag="mCk7jUJANBP4eZkODCus" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T13:00:55.425Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="joeQwpLSqb-ey21HisZa" version="21.5.2" type="github">
   <diagram name="Página-1" id="cAdZGd3ZQvYycISEB2nt">
-    <mxGraphModel>
+    <mxGraphModel dx="926" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-1" value="Produto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="270" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-2" value="&lt;div&gt;- idProduto: long&lt;br&gt;&lt;/div&gt;&lt;div&gt;- nomeProduto: String&lt;/div&gt;&lt;div&gt;- preco: float&lt;/div&gt;&lt;div&gt;- estoque: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-1">
+          <mxGeometry y="26" width="270" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-1">
+          <mxGeometry y="100" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-4" value="&lt;div&gt;+ getIdProduto(): long&lt;/div&gt;&lt;div&gt;+ setIdProduto(idProduto: long): void&lt;/div&gt;&lt;div&gt;+ getNomeProduto(): String&lt;/div&gt;&lt;div&gt;+ setNomeProduto(nomeProduto: String): void&lt;/div&gt;&lt;div&gt;+ getPreco(): float&lt;/div&gt;&lt;div&gt;+ setPreco(preco: float): void&lt;/div&gt;&lt;div&gt;+ getEstoque(): int&lt;/div&gt;&lt;div&gt;+ setEstoque(estoque: int): void&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-1">
+          <mxGeometry y="108" width="270" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-5" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="260" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-6" value="&lt;div&gt;- idCliente: long&lt;/div&gt;&lt;div&gt;- nomeCliente: String&lt;/div&gt;&lt;div&gt;- nasc: Date&lt;/div&gt;&lt;div&gt;- cpf String&lt;/div&gt;&lt;div&gt;- telefone: String&lt;/div&gt;&lt;div&gt;- email: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-5">
+          <mxGeometry y="26" width="260" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-5">
+          <mxGeometry y="130" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-8" value="+ getIdCliente(): long&lt;div&gt;+ setIdCliente(idCliente: long): void&lt;/div&gt;&lt;div&gt;+ getNomeCliente(): String&lt;/div&gt;&lt;div&gt;+ setNomeCliente(nomeCliente: String): void&lt;/div&gt;&lt;div&gt;+ getNasc(): Date&lt;/div&gt;&lt;div&gt;+ setNasc(nasc: Date): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getCpf(): String&lt;/div&gt;&lt;div&gt;+ setCpf(cpf: String): void&lt;/div&gt;&lt;div&gt;+ getTelefone(): String&lt;/div&gt;&lt;div&gt;+ setTelefone(telefone: String): void&lt;/div&gt;&lt;div&gt;+ getEmail(): String&lt;/div&gt;&lt;div&gt;+ setEmail(email: String): void&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-5">
+          <mxGeometry y="138" width="260" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-9" value="ItensVenda" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-10" value="&lt;div&gt;- idItensVenda: long&lt;/div&gt;&lt;div&gt;- produto: Produto&lt;/div&gt;&lt;div&gt;- quant: int&lt;/div&gt;&lt;div&gt;- subTotal: float&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-9">
+          <mxGeometry y="26" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-9">
+          <mxGeometry y="100" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-12" value="&lt;div&gt;+ getIdItensVenda(): long&lt;/div&gt;&lt;div&gt;+ setIdItensVenda(idItensVenda: long): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getProduto(): Produto&lt;/div&gt;&lt;div&gt;+ setProduto(produto: Produto): void&lt;/div&gt;&lt;div&gt;+ getQuant(): int&lt;/div&gt;&lt;div&gt;+ setQuant(quant: int): void&lt;/div&gt;&lt;div&gt;+ getSubTotal(): float&lt;/div&gt;&lt;div&gt;+ setSubTotal(subTotal: float): void&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-9">
+          <mxGeometry y="108" width="250" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-13" value="Venda" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="410" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-14" value="&lt;div&gt;- idVenda: long&lt;/div&gt;&lt;div&gt;- dataVenda: Date&lt;/div&gt;&lt;div&gt;- itens: List&amp;lt;ItensVenda&amp;gt;&lt;/div&gt;&lt;div&gt;- valorTotal: float&lt;/div&gt;&lt;div&gt;- cliente: Cliente&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-13">
+          <mxGeometry y="26" width="240" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-13">
+          <mxGeometry y="120" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6qhqp_pLTHLFrG7n4mDh-16" value="&lt;div&gt;+ getIdVenda(): long&lt;/div&gt;&lt;div&gt;+ setIdVenda(idVenda: long): void&lt;/div&gt;&lt;div&gt;+ getDataVenda(): Date&lt;/div&gt;&lt;div&gt;+ setDataVenda(dataVenda: Date): void&lt;/div&gt;&lt;div&gt;+ getItens(): List&amp;lt;ItensVenda&amp;gt;&lt;/div&gt;&lt;div&gt;+ setItens(itens: List&amp;lt;ItensVenda&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ getValorTotal(): float&lt;/div&gt;&lt;div&gt;+ setValorTotal(valorTotal: float): void&lt;/div&gt;&lt;div&gt;+ getCliente(): Cliente&lt;/div&gt;&lt;div&gt;+ setCliente(cliente: Cliente): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6qhqp_pLTHLFrG7n4mDh-13">
+          <mxGeometry y="128" width="240" height="172" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
