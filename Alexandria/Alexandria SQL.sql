@@ -16,4 +16,4 @@ CREATE TABLE usuario
  cod_livraria INT
 ); 
 
-ALTER TABLE usuario ADD FOREIGN KEY (cod_livraria) REFERENCES livraria (cod_livraria)
+ALTER TABLE usuario ADD FOREIGN KEY (cod_livraria) REFERENCES livraria (cod_livro)
